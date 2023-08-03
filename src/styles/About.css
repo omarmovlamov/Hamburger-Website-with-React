@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90dvh;
+}
+/* main 1 */
+.main-1 {
+  display: flex;
+  flex-direction: row;
+  height: 30dvh;
+}
+.main-1 div:nth-child(1) {
+  width: 60%;
+  background-color: #ffd97b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transform: scale(0.95);
+  transition: 0.3s ease-in;
+}
+.main-1 div:nth-child(1):hover {
+  transform: scale(1);
+  background-color: #ffd97b;
+}
+.main-1 div:nth-child(2) {
+  background-image: url(https://media.istockphoto.com/id/1323075103/photo/bacon-and-cheese-burger.webp?b=1&s=170667a&w=0&k=20&c=J1TrrOamVuEf4Dv0ohFeQjJYbym_SANBwSJa8sRClN4=);
+  width: 40%;
+  background-position: -100px -80px;
+  background-repeat: no-repeat;
+  background-size: 150% 150%;
+}
+/* main 2 */
+.main-2 {
+  display: flex;
+  flex-direction: row;
+  height: 30dvh;
+}
+.main-2 div:nth-child(1) {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #ff8383;
+}
+.main-2 div:nth-child(1) p {
+  transform: rotate(270deg);
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-2 div:nth-child(2) {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transform: scale(1);
+  transition: 0.5s ease-in;
+}
+.main-2 div:nth-child(2):hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: #fff;
+  border-radius: 40px;
+}
+.main-2 div:nth-child(3) {
+  width: 25%;
+  background-color: #83f1ff;
+}
+/* main 3 */
+.main-3 {
+  display: flex;
+  flex-direction: row;
+  height: 30dvh;
+  background-color: #ff8239;
+}
+.main-3 div:nth-child(1) {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/486/777/184/mcdonald-s-food-burgers-burger-wallpaper-preview.jpg);
+  width: 60%;
+  background-position: -10px -55px;
+  background-repeat: no-repeat;
+  background-size: 70% 170%;
+}
+.main-3 div:nth-child(2) {
+  width: 40%;
+}

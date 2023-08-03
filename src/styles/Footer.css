@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  height: 100px;
+  background: rgb(125, 16, 16);
+  background: radial-gradient(
+    circle,
+    rgba(125, 16, 16, 1) 0%,
+    rgba(31, 60, 0, 0) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.footer p {
+  color: white;
+}
